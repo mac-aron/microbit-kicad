@@ -4,7 +4,7 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -8.25 0)
+		(at 0.005 -2 0)
 		(layer "F.SilkS")
 		(uuid "591e50bb-4e7f-4b7b-8ddf-d9b9bb65f266")
 		(effects
@@ -877,4 +877,26 @@
 		(uuid "4a9ac037-9b25-4ed5-a540-ab801948fd47")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/library/microbit-kicad/library/Microbit.3dshapes/Microbit_Edge_W2.step"
+		(offset
+			(xyz -3.9 0.75 1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -180)
+		)
+	)
+	(model "${KIPRJMOD}/library/microbit-kicad/library/Microbit.3dshapes/Microbit_v2.step"
+		(offset
+			(xyz 0 1 6.25)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -0 -0)
+		)
+	)
 )
